@@ -48,7 +48,7 @@ public class PriceItem {
 		int aa = 1;
 		System.out.printf("订单号：%05d", aa);
 		System.out.println();
-		System.out.println("编号" + "\t" + "名称" + "\t" + "价钱" + "\t" + "数量");
+		System.out.println("编号" + "\t" + "名称" + "\t" + "价钱" + "\t" + "数量" + '\t' + "作用");
 		System.out.println("---------------------------------");
 		double money = i.showArray2(al);
 		System.out.println("---------------------------------");
