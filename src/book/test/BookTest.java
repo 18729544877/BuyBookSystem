@@ -2,6 +2,8 @@ package book.test;
 
 import java.util.ArrayList;
 
+import book.test.showName.ShoeName;
+
 public class BookTest {
 	public static void main(String[] args) {
 	//添加Student类的集合
@@ -19,6 +21,7 @@ public class BookTest {
 		PriceItem p = new PriceItem();
 		p.inputItem(al);
 		p.outputItem(al);
+		ShoeName.showName();
 	}
 
 }
