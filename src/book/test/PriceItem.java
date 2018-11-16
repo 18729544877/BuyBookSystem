@@ -63,7 +63,15 @@ public class PriceItem {
 		for (int j = 0; j < 4; j++) {
 			//Items i1 = new Items();
 			System.out.println("请输入所购图书的编号：");
-			int id = sc.nextInt();
+			String input = sc.next();
+			int id = -1;
+			if(input.matches("^[0-9]*$")){
+				id = Integer.parseInt(input);
+			}else{
+				System.out.println("输入正确的编号");
+				System.out.println("请输入所购图书的编号：");
+				input = sc.next();
+			}
 			int[] number = new int[4];
 			if (id == al.get(id).getBooksId()) {
 				System.out.println("请输入购买数量");
