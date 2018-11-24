@@ -3,7 +3,11 @@ package book.test;
 import java.util.ArrayList;
 
 import book.test.showName.ShoeName;
-
+/**
+ * 测试开始
+ * @author Administrator
+ *
+ */
 public class BookTest {
 	public static void main(String[] args) {
 	//添加Student类的集合
@@ -23,5 +27,7 @@ public class BookTest {
 		p.outputItem(al);
 		ShoeName.showName();
 	}
-
+	/**
+	 * 测试结束
+	 */
 }
